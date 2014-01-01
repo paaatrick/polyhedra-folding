@@ -1,0 +1,57 @@
+body {    
+    font-size: 62.5%;
+    background-color: #000000;
+}
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+canvas {
+    width: 100%;
+    height: 100%;
+    cursor: -webkit-grab; cursor: -moz-grab; 
+}
+select {
+    width: 100%;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-color: #666666;
+}
+#controls {
+    float: left;
+    width: 300px;
+    position: absolute;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    padding: 10px;
+}
+#polytype {
+    max-height: 300px;
+    overflow-y: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover {
+    background-color: #333366;
+}
+.label {
+    font-weight: bold;
+}
+.ui-slider {
+    font-size: 0.8em;
+    border-radius: 0;
+}
+.ui-slider-handle {
+    border-radius: 0;
+}
+.ui-slider-range {
+    border-radius: 0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Polyhedra</title>
+    
+    <link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    
+    <script src="js/three.min.js"></script>
+    <script src="js/PolyLoader.js"></script>
+    <script src="js/TrackballControls.js"></script>
+  </head>
+  <body>
+    <div id="controls">
+      <p class="label">Polyhedron</p>
+      <select id="polyfam"></select>
+      <div id="polytype"></div>
+      <p class="label">Fold Amount</p>
+      <div id="foldamount"></div>
+      <p class="label">Style</p>
+      <select id="drawstyle">
+        <option>Wireframe</option>
+        <option>Flat</option>
+        <option>Lit</option>
+        <option>Normals</option>
+      </select>
+    </div>
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
