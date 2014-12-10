@@ -6,9 +6,9 @@ var ctrls = {
 };
 var materials = {
   "line": new THREE.LineBasicMaterial({color: 0xFFFFFF, linewidth: 2}),
-  "flat": new THREE.MeshBasicMaterial({color: 0x009999, side: THREE.DoubleSide}),
-  "lit": new THREE.MeshPhongMaterial({ambient: 0x333333, color: 0x666666, specular: 0xFFFFFF, side: THREE.DoubleSide, shininess: 70}),
-  "normals": new THREE.MeshNormalMaterial({side: THREE.DoubleSide})
+  "flat": new THREE.MeshBasicMaterial({color: 0x009999, side: THREE.DoubleSide, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.1}),
+  "lit": new THREE.MeshPhongMaterial({ambient: 0x333333, color: 0x666666, specular: 0xFFFFFF, side: THREE.DoubleSide, shininess: 70, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.1}),
+  "normals": new THREE.MeshNormalMaterial({side: THREE.DoubleSide, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.1})
 };
 var polyhedra = {
   "Platonic": {
@@ -18,7 +18,7 @@ var polyhedra = {
     "Dodecahedron": 3,
     "Icosahedron": 4
   },
-  "Kepler–Poinsot": {
+  "Kepler-Poinsot": {
     "Small Stellated Dodecahedron": 5,
     "Great Dodecahedron": 6,
     "Great Stellated Dodecahedron": 7,
