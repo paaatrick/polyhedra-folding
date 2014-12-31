@@ -29,7 +29,7 @@ angular.module('polyhedraApp', [])
     };
 
     var that = this;
-    $http.get("/polyhedra.json")
+    $http.get("polyhedra.json")
       .success(function (data) {
         that.families = data.families;
         that.family = that.families[0];
