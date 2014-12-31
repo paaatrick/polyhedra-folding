@@ -1,0 +1,607 @@
+{
+  "families": [
+    {
+      "name": "Platonic",
+      "polyhedra": [
+        {
+          "name": "Tetrahedron",
+          "number": 0
+        },
+        {
+          "name": "Cube",
+          "number": 1
+        },
+        {
+          "name": "Octahedron",
+          "number": 2
+        },
+        {
+          "name": "Dodecahedron",
+          "number": 3
+        },
+        {
+          "name": "Icosahedron",
+          "number": 4
+        }
+      ]
+    },
+    {
+      "name": "Kepler-Poinsot",
+      "polyhedra": [
+        {
+          "name": "Small Stellated Dodecahedron",
+          "number": 5
+        },
+        {
+          "name": "Great Dodecahedron",
+          "number": 6
+        },
+        {
+          "name": "Great Stellated Dodecahedron",
+          "number": 7
+        },
+        {
+          "name": "Great Icosahedron",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "name": "Archimedean",
+      "polyhedra": [
+        {
+          "name": "Truncated Tetrahedron",
+          "number": 9
+        },
+        {
+          "name": "Cuboctahedron",
+          "number": 10
+        },
+        {
+          "name": "Truncated Cube",
+          "number": 11
+        },
+        {
+          "name": "Truncated Octahedron",
+          "number": 12
+        },
+        {
+          "name": "Rhombicuboctahedron",
+          "number": 13
+        },
+        {
+          "name": "Great Rhombicuboctahedron",
+          "number": 14
+        },
+        {
+          "name": "Snub Cube (Laevo)",
+          "number": 15
+        },
+        {
+          "name": "Icosidodecahedron",
+          "number": 16
+        },
+        {
+          "name": "Truncated Dodecahedron",
+          "number": 17
+        },
+        {
+          "name": "Truncated Icosahedron",
+          "number": 18
+        },
+        {
+          "name": "Rhombicosidodecahedron",
+          "number": 19
+        },
+        {
+          "name": "Great Rhombicosidodecahedron",
+          "number": 20
+        },
+        {
+          "name": "Snub Dodecahedron (Laevo)",
+          "number": 21
+        }
+      ]
+    },
+    {
+      "name": "Archimedean Duals",
+      "polyhedra": [
+        {
+          "name": "Triakis Tetrahedron",
+          "number": 32
+        },
+        {
+          "name": "Rhombic Dodecahedron",
+          "number": 33
+        },
+        {
+          "name": "Triakis Octahedron",
+          "number": 34
+        },
+        {
+          "name": "Tetrakis Hexahedron",
+          "number": 35
+        },
+        {
+          "name": "Trapezoidal Icositetrahedron",
+          "number": 36
+        },
+        {
+          "name": "Hexakis Octahedron",
+          "number": 37
+        },
+        {
+          "name": "Pentagonal Icositetrahedron (Dextro)",
+          "number": 38
+        },
+        {
+          "name": "Rhombic Triacontahedron",
+          "number": 39
+        },
+        {
+          "name": "Triakis Icosahedron",
+          "number": 40
+        },
+        {
+          "name": "Pentakis Dodecahedron",
+          "number": 41
+        },
+        {
+          "name": "Trapezoidal Hexecontahedron",
+          "number": 42
+        },
+        {
+          "name": "Hexakis Icosahedron",
+          "number": 43
+        },
+        {
+          "name": "Pentagonal Hexecontahedron (Dextro)",
+          "number": 44
+        }
+      ]
+    },
+    {
+      "name": "Prisms & Anti-prisms",
+      "polyhedra": [
+        {
+          "name": "Triangular Prism",
+          "number": 22
+        },
+        {
+          "name": "Pentagonal Prism",
+          "number": 23
+        },
+        {
+          "name": "Hexagonal Prism",
+          "number": 24
+        },
+        {
+          "name": "Octagonal Prism",
+          "number": 25
+        },
+        {
+          "name": "Decagonal Prism",
+          "number": 26
+        },
+        {
+          "name": "Square Antiprism",
+          "number": 27
+        },
+        {
+          "name": "Pentagonal Antiprism",
+          "number": 28
+        },
+        {
+          "name": "Hexagonal Antiprism",
+          "number": 29
+        },
+        {
+          "name": "Octagonal Antiprism",
+          "number": 30
+        },
+        {
+          "name": "Decagonal Antiprism",
+          "number": 31
+        }
+      ]
+    },
+    {
+      "name": "Johnson Solids",
+      "polyhedra": [
+        {
+          "name": "Square Pyramid (J1)",
+          "number": 45
+        },
+        {
+          "name": "Pentagonal Pyramid (J2)",
+          "number": 46
+        },
+        {
+          "name": "Triangular Cupola (J3)",
+          "number": 47
+        },
+        {
+          "name": "Square Cupola (J4)",
+          "number": 48
+        },
+        {
+          "name": "Pentagonal Cupola (J5)",
+          "number": 49
+        },
+        {
+          "name": "Pentagonal Rotunda (J6)",
+          "number": 50
+        },
+        {
+          "name": "Elongated Triangular Pyramid (J7)",
+          "number": 51
+        },
+        {
+          "name": "Elongated Square Pyramid (J8)",
+          "number": 52
+        },
+        {
+          "name": "Elongated Pentagonal Pyramid (J9)",
+          "number": 53
+        },
+        {
+          "name": "Gyroelongated Square Pyramid (J10)",
+          "number": 54
+        },
+        {
+          "name": "Gyroelongated Pentagonal Pyramid (J11)",
+          "number": 55
+        },
+        {
+          "name": "Triangular Dipyramid (J12)",
+          "number": 56
+        },
+        {
+          "name": "Pentagonal Dipyramid (J13)",
+          "number": 57
+        },
+        {
+          "name": "Elongated Triangular Dipyramid (J14)",
+          "number": 58
+        },
+        {
+          "name": "Elongated Square Dipyramid (J15)",
+          "number": 59
+        },
+        {
+          "name": "Elongated Pentagonal Dipyramid (J16)",
+          "number": 60
+        },
+        {
+          "name": "Gyroelongated Square Dipyramid (J17)",
+          "number": 61
+        },
+        {
+          "name": "Elongated Triangular Cupola (J18)",
+          "number": 62
+        },
+        {
+          "name": "Elongated Square Cupola (J19)",
+          "number": 63
+        },
+        {
+          "name": "Elongated Pentagonal Cupola (J20)",
+          "number": 64
+        },
+        {
+          "name": "Elongated Pentagonal Rotunds (J21)",
+          "number": 65
+        },
+        {
+          "name": "Gyroelongated Triangular Cupola (J22)",
+          "number": 66
+        },
+        {
+          "name": "Gyroelongated Square Cupola (J23)",
+          "number": 67
+        },
+        {
+          "name": "Gyroelongated Pentagonal Cupola (J24)",
+          "number": 68
+        },
+        {
+          "name": "Gyroelongated Pentagonal Rotunda (J25)",
+          "number": 69
+        },
+        {
+          "name": "Gyrobifastigium (J26)",
+          "number": 70
+        },
+        {
+          "name": "Triangular Orthobicupola (J27)",
+          "number": 71
+        },
+        {
+          "name": "Square Orthobicupola (J28)",
+          "number": 72
+        },
+        {
+          "name": "Square Gyrobicupola (J29)",
+          "number": 73
+        },
+        {
+          "name": "Pentagonal Orthobicupola (J30)",
+          "number": 74
+        },
+        {
+          "name": "Pentagonal Gyrobicupola (J31)",
+          "number": 75
+        },
+        {
+          "name": "Pentagonal Orthocupolarontunda (J32)",
+          "number": 76
+        },
+        {
+          "name": "Pentagonal Gyrocupolarotunda (J33)",
+          "number": 77
+        },
+        {
+          "name": "Pentagonal Orthobirotunda (J34)",
+          "number": 78
+        },
+        {
+          "name": "Elongated Triangular Orthobicupola (J35)",
+          "number": 79
+        },
+        {
+          "name": "Elongated Triangular Gyrobicupola (J36)",
+          "number": 80
+        },
+        {
+          "name": "Elongated Square Gyrobicupola (J37)",
+          "number": 81
+        },
+        {
+          "name": "Elongated Pentagonal Orthobicupola (J38)",
+          "number": 82
+        },
+        {
+          "name": "Elongated Pentagonal Gyrobicupola (J39)",
+          "number": 83
+        },
+        {
+          "name": "Elongated Pentagonal Orthocupolarotunda (J40)",
+          "number": 84
+        },
+        {
+          "name": "Elongated Pentagonal Gyrocupolarotunda (J41)",
+          "number": 85
+        },
+        {
+          "name": "Elongated Pentagonal Orthobirotunda (J42)",
+          "number": 86
+        },
+        {
+          "name": "Elongated Pentagonal Gyrobirotunda (J43)",
+          "number": 87
+        },
+        {
+          "name": "Gyroelongated Triangular Bicupola (J44)",
+          "number": 88
+        },
+        {
+          "name": "Gyroelongated Square Bicupola (J45)",
+          "number": 89
+        },
+        {
+          "name": "Gyroelongated Pentagonal Bicupola (J46)",
+          "number": 90
+        },
+        {
+          "name": "Gyroelongated Pentagonal Cupolarotunda (J47)",
+          "number": 91
+        },
+        {
+          "name": "Gyroelongated Pentagonal Birotunda (J48)",
+          "number": 92
+        },
+        {
+          "name": "Augmented Triangular Prism (J49)",
+          "number": 93
+        },
+        {
+          "name": "Biaugmented Triangular Prism (J50)",
+          "number": 94
+        },
+        {
+          "name": "Triaugmented Triangular Prism (J51)",
+          "number": 95
+        },
+        {
+          "name": "Augmented Pentagonal Prism (J52)",
+          "number": 96
+        },
+        {
+          "name": "Biaugmented Pentagonal Prism (J53)",
+          "number": 97
+        },
+        {
+          "name": "Augmented Hexagonal Prism (J54)",
+          "number": 98
+        },
+        {
+          "name": "Parabiaugmented Hexagonal Prism (J55)",
+          "number": 99
+        },
+        {
+          "name": "Metabiaugmented Hexagonal Prism (J56)",
+          "number": 100
+        },
+        {
+          "name": "Triaugmented Hexagonal Prism (J57)",
+          "number": 101
+        },
+        {
+          "name": "Augmented Dodecahedron (J58)",
+          "number": 102
+        },
+        {
+          "name": "Parabiaugmented Dodecahedron (J59)",
+          "number": 103
+        },
+        {
+          "name": "Metabiaugmented Dodecahedron (J60)",
+          "number": 104
+        },
+        {
+          "name": "Triaugmented Dodecahedron (J61)",
+          "number": 105
+        },
+        {
+          "name": "Metabidiminished Icosahedron (J62)",
+          "number": 106
+        },
+        {
+          "name": "Tridiminished Icosahedron (J63)",
+          "number": 107
+        },
+        {
+          "name": "Augmented Tridiminished Icosahedron (J64)",
+          "number": 108
+        },
+        {
+          "name": "Augmented Truncated Tetrahedron (J65)",
+          "number": 109
+        },
+        {
+          "name": "Augmented Truncated Cube (J66)",
+          "number": 110
+        },
+        {
+          "name": "Biaugmented Truncated Cube (J67)",
+          "number": 111
+        },
+        {
+          "name": "Augmented Truncated Dodecahedron (J68)",
+          "number": 112
+        },
+        {
+          "name": "Parabiaugmented Truncated Dodecahedron (J69)",
+          "number": 113
+        },
+        {
+          "name": "Metabiaugmented Truncated Dodecahedron (J70)",
+          "number": 114
+        },
+        {
+          "name": "Triaugmented Truncated Dodecahedron (J71)",
+          "number": 115
+        },
+        {
+          "name": "Gyrate Rhombicosidodecahedron (J72)",
+          "number": 116
+        },
+        {
+          "name": "Parabigyrate Rhombicosidodecahedron (J73)",
+          "number": 117
+        },
+        {
+          "name": "Metabigyrate Rhombicosidodecahedron (J74)",
+          "number": 118
+        },
+        {
+          "name": "Trigyrate Rhombicosidodecahedron (J75)",
+          "number": 119
+        },
+        {
+          "name": "Diminished Rhombicosidodecahedron (J76)",
+          "number": 120
+        },
+        {
+          "name": "Paragyrate Diminished Rhombicosidodecahedron (J77)",
+          "number": 121
+        },
+        {
+          "name": "Metagyrate Diminished Rhombicosidodecahedron (J78)",
+          "number": 122
+        },
+        {
+          "name": "Bigyrate Diminished Rhombicosidodecahedron (J79)",
+          "number": 123
+        },
+        {
+          "name": "Parabidiminished Rhombicosidodecahedron (J80)",
+          "number": 124
+        },
+        {
+          "name": "Metabidiminished Rhombicosidodecahedron (J81)",
+          "number": 125
+        },
+        {
+          "name": "Gyrate Bidiminished Rhombicosidodecahedron (J82)",
+          "number": 126
+        },
+        {
+          "name": "Tridiminished Rhombicosidodecahedron (J83)",
+          "number": 127
+        },
+        {
+          "name": "Snub Disphenoid (J84)",
+          "number": 128
+        },
+        {
+          "name": "Snub Square Antiprism (J85)",
+          "number": 129
+        },
+        {
+          "name": "Sphenocorona (J86)",
+          "number": 130
+        },
+        {
+          "name": "Augmented Sphenocorona (J87)",
+          "number": 131
+        },
+        {
+          "name": "Sphenomegacorona (J88)",
+          "number": 132
+        },
+        {
+          "name": "Hebesphenomegacorona (J89)",
+          "number": 133
+        },
+        {
+          "name": "Disphenocingulum (J90)",
+          "number": 134
+        },
+        {
+          "name": "Bilunabirotunda (J91)",
+          "number": 135
+        },
+        {
+          "name": "Triangular Hebesphenorotunda (J92)",
+          "number": 136
+        }
+      ]
+    },
+    {
+      "name": "Others",
+      "polyhedra": [
+        {
+          "name": "Tetrahemihexahedron",
+          "number": 137
+        },
+        {
+          "name": "Octahemioctahedron",
+          "number": 138
+        },
+        {
+          "name": "Small Ditrigonal Icosidodecahedron",
+          "number": 139
+        },
+        {
+          "name": "Dodecadodecahedron",
+          "number": 140
+        },
+        {
+          "name": "Echidnahedron",
+          "number": 141
+        }
+      ]
+    }
+  ]
+}

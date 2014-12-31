@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Polyhedra</title>
     
-    <link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />
-    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    <link type="text/css" href="css/main.css" rel="stylesheet">
     
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
     
     <script src="js/three.min.js"></script>
     <script src="js/PolyLoader.js"></script>
     <script src="js/TrackballControls.js"></script>
     
+    <script src="js/main.js"></script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,22 +26,34 @@
       ga('send', 'pageview');
     </script>
   </head>
-  <body>
-    <div id="controls">
-      <p class="label">Polyhedron</p>
-      <select id="polyfam"></select>
-      <div id="polytype"></div>
-      <p class="label">Fold Amount</p>
-      <div id="foldamount"></div>
-      <p class="label">Style</p>
-      <select id="drawstyle">
-        <option>Wireframe</option>
-        <option>Flat</option>
-        <option>Lit</option>
-        <option>Normals</option>
-      </select>
+  <body ng-app="polyhedraApp">
+    <div class="container" ng-controller="PolyController as poly">
+
+      <div ng-class="{closed: !poly.menuOpen}" class="controls">
+        <button ng-click="poly.toggleMenu()" id="menu-button">
+          {{poly.buttonText}}
+        </button>
+        <div class="main-control">
+          <label for="polyhedron">Polyhedron</label>
+          <select id="polyhedron" ng-options="family.name for family in poly.families" ng-model="poly.family"></select>
+
+          <ul>
+            <li ng-repeat="polyhedra in poly.family.polyhedra" ng-class="{active: polyhedra.number === poly.displayed}" ng-click="poly.show(polyhedra.number)">
+              {{polyhedra.name}}
+            </li>
+          </ul>
+
+          <label for="style">Style</label>
+          <select id="style" ng-options="o for o in poly.materialOptions" ng-model="poly.material" ng-change="poly.draw()"></select>
+
+          <div class="credits">
+            Created by <a href="http://paaatrick.github.io">Patrick Kalita</a>
+          </div>
+        </div>
+      </div>
+      <div id="scene">
+        <input id="fold-amount" type="range" min="0" max="100" step="1" ng-model="poly.amount" ng-change="poly.draw()">
+      </div>
     </div>
-    
-    <script src="js/main.js"></script>
   </body>
 </html>

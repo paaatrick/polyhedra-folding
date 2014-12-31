@@ -16,8 +16,20 @@ THREE.PolyLoader.prototype = {
     });
   },
 
+  colors: [
+    new THREE.Color().setHSL(0.00, 0.7, 0.5),
+    new THREE.Color().setHSL(0.44, 0.7, 0.5),
+    new THREE.Color().setHSL(0.88, 0.7, 0.5),
+    new THREE.Color().setHSL(0.11, 0.7, 0.5),
+    new THREE.Color().setHSL(0.55, 0.7, 0.5),
+    new THREE.Color().setHSL(0.33, 0.7, 0.5),
+    new THREE.Color().setHSL(0.77, 0.7, 0.5),
+    new THREE.Color().setHSL(0.22, 0.7, 0.5),
+  ],
+
   parse: function (text) {
-    var verts = [],
+    var scope = this,
+      verts = [],
       faces = [],
       hinges = [],
       lines = text.split('\n'),
@@ -131,7 +143,7 @@ THREE.PolyLoader.prototype = {
                                  verts[thisFace[2]]),
         node = new THREE.Object3D(),
         shape = regularShape(thisFace),
-        mat = new THREE.MeshPhongMaterial(),
+        mat = new THREE.MeshPhongMaterial({vertexColors: THREE.FaceColors}),
         ax = new THREE.Vector3(),
         s1 = thisFace[side],
         s2 = thisFace[(side + 1) % thisFace.length],
@@ -143,7 +155,13 @@ THREE.PolyLoader.prototype = {
         // star-pentagon special case
         shape = starPentagonShape(thisFace);
       }
-      node.add(new THREE.Mesh(shape.makeGeometry(), mat));
+
+      var geo = shape.makeGeometry();
+      for (var i = 0; i < geo.faces.length; i++) {
+        geo.faces[i].color = scope.colors[thisFace.length - 3];
+      }
+
+      node.add(new THREE.Mesh(geo, mat));
       node.name = face;
       node.userData = {
         offset: verts[s1],
